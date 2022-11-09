@@ -17,14 +17,3 @@ EXPOSE 3000
 
 CMD [ "npm", "run", "start" ]
 
-
-
-
-
-
-# copy project files and folders to the current working directory (i.e. 'app' folder)
-COPY . .
-
-
-EXPOSE 8080
-CMD [ "http-server", "dist" ]
