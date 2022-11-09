@@ -7,4 +7,4 @@ services:
             context: .
         restart: always
         ports:
-            - 8585:3000
+            - 8000:8000
