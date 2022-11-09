@@ -24,6 +24,7 @@ export default {
     '~/plugins/fontawesome.js'
   ],
   server: {
+    host: '0', // default: localhost
     port: 8000 // default: 3000
   },
   // Auto import components: https://go.nuxtjs.dev/config-components
