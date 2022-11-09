@@ -12,8 +12,8 @@ RUN npm install
 
 # build app for production with minification
 RUN npm run build
-ENV port=8000
-ENV host="0"
+ENV PORT=8000
+ENV HOST="0"
 EXPOSE 8000
 
 CMD [ "npm", "run", "start" ]
