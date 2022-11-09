@@ -13,15 +13,6 @@ RUN npm install
 # build app for production with minification
 RUN npm run build
 
-# Runner
-FROM node:16-buster
-
-WORKDIR /app
-
-RUN mkdir dist
-
-COPY --from=builder /app/dist ./dist
-
 EXPOSE 3000
 
 CMD [ "npm", "run", "start" ]
