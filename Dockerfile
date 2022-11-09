@@ -10,6 +10,7 @@ COPY package*.json ./
 # install project dependencies
 RUN npm install
 
+COPY . .
 # build app for production with minification
 RUN npm run build
 ENV PORT=8000
