@@ -2,6 +2,8 @@
 
 This repository is related to Alibaba Travel's interview assignment. It is built upon Vuejs client framework along with Nuxtjs which enables server side rederring for Vue applications.
 
+[DEMO](http://141.11.246.83:8000)
+
 The following features is expected to work properly:
 * See all countries from the API on the homepage
 * Search for a country using an input field
