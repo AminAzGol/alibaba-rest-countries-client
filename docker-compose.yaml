@@ -1,0 +1,10 @@
+version: '3.8'
+
+services:
+    nuxt:
+        container_name: alibaba-nuxt
+        build:
+            context: .
+        restart: always
+        ports:
+            - 8585:3000
